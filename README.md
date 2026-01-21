@@ -8,7 +8,7 @@ The purpose of creating this app was to practice mobile development concepts suc
 
 Here is a link to a video demonstration of the app, showing the app running and a walkthrough of the code:
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/eF-YRE_ieXg)
 
 # Development Environment
 
