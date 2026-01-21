@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Flashcard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/etEditQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Question"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textColorHint="?android:attr/textColorHint"
+        android:autofillHints="none"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEditAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textColorHint="?android:attr/textColorHint"
+        android:autofillHints="none"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:minWidth="150dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnCancelEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:minWidth="150dp"
+        android:layout_gravity="center_horizontal"
+        style="?attr/borderlessButtonStyle" />
+
+    <TextView
+        android:id="@+id/tvEditError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingTop="12dp"
+        android:gravity="center" />
+
+</LinearLayout>
